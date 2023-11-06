@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Input Username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="text"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Input Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="textEmailAddress"
+        ></EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Input Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="confirm Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        ></EditText>
+    <Spinner
+        android:id="@+id/gender_array"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Input Phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="phone"
+        ></EditText>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="Input Address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:inputType="textPostalAddress"
+        ></EditText>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/box"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textStyle="italic"></Button>
+
+</LinearLayout>
