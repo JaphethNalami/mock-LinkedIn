@@ -2,19 +2,18 @@ package com.example.linkedinmock;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class login extends AppCompatActivity {
 
-    // This is the login page. It is the first page that the user sees when they open the app.
-    // It is a simple page with a logo, a text field for the user to enter their email or phone number,
-    // a text field for the user to enter their password, and a button to log in.
-    // There is also a link to the sign up page if the user does not have an account.
 
-    Button loginButton, signUpButton;
+    Button login;
     EditText emailOrPhone, password;
+    TextView SignUp;
 
 
     @Override
@@ -22,9 +21,18 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // This is the login button. When the user clicks on it, it will log them in.
-        loginButton = findViewById(R.id.login);
-        signUpButton = findViewById(R.id.register);
+
+        login = findViewById(R.id.login);
+        SignUp = findViewById(R.id.register);
+        emailOrPhone = findViewById(R.id.username);
+        password = findViewById(R.id.password);
+
+
+
+        SignUp.setOnClickListener(View -> {
+            Intent intent = new Intent(login.this, register.class);
+            startActivity(intent);
+        });
 
     }
 }

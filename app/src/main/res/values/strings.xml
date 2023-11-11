@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">linkedin mock</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account?Register</string>
+    <string name="login">Login</string>
+    <string name="input_password">Input Password</string>
+    <string name="input_email">Input Email</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="register">Register</string>
+    <string name="input_address">Input Address</string>
+    <string name="input_phone">Input Phone</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="input_username">Input Username</string>
     <string-array name="gender_array">
         <item>Male</item>
         <item>Female</item>
