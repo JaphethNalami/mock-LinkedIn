@@ -10,6 +10,11 @@
     <string name="input_phone">Input Phone</string>
     <string name="confirm_password">confirm Password</string>
     <string name="input_username">Input Username</string>
+    <string name="home">Home</string>
+    <string name="or" />
+    <string name="default_web_client_id" />
+    <string name="save">\n</string>
+    <string name="details">Details</string>
     <string-array name="gender_array">
         <item>Male</item>
         <item>Female</item>

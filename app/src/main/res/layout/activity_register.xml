@@ -18,6 +18,7 @@
         android:orientation="vertical">
 
     <TextView
+        android:id="@+id/linkedin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/linkedin"
@@ -35,22 +36,12 @@
         android:textStyle="bold"
         android:layout_marginStart="20dp"
         android:gravity="start"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="190dp" />
+
+
 
     <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:hint="@string/input_username"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/box"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:inputType="text" />
-
-    <EditText
+        android:id="@+id/mail"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:hint="@string/input_email"
@@ -84,57 +75,10 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/box"
         android:textAlignment="center"
+        android:id="@+id/confirm_password"
         android:textStyle="italic"
         android:inputType="textPassword" />
 
-    <Spinner
-        android:id="@+id/gender_array"
-        android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/box"
-        android:textAlignment="center"
-        android:textStyle="italic" />
-
-    <EditText
-        android:id="@+id/address"
-        android:layout_width="match_parent"
-        android:layout_height="71dp"
-        android:hint="short bio"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/box"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:inputType="textPostalAddress" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:hint="skills"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/box"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/phone"
-        android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:hint="@string/input_phone"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/box"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:inputType="phone" />
 
     <Button
         android:id="@+id/register"
